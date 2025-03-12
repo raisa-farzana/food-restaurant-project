@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn-container{
+    text-align: center;
+}
+.btn{
+    padding: 21px 32px 21px 32px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+#hero{
+    height: 919px;
+    background-image: linear-gradient(
+        0deg, 
+        rgb(9, 9, 9) 3.482%,
+        rgba(16, 16, 16, 0) 101.632%
+        ),
+    url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .hero-content{
+    width: 1023px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+#hero .hero-content .subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+
+}
+#hero .hero-content .title{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#hero .hero-content .description{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+#card-box .card-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 48px;
+    margin: 50px auto;
+    
+}
+#card-box .card-container .titles{
+    width: 691px;
+    
+}
+#card-box .card-container .titles .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+}
+#card-box .card-container .titles .title {
+    padding-top: 16px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#card-box .card-container .cards{
+    display: flex;
+    gap: 24px;
+}
+#card-box .card-container .cards .card{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding: 0px;
+}
+.card img{
+    width: 100%;
+}
+.card span{
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.card h1{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center; 
+}
+.card p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+.card .btn{
+    margin-top: 40px;
+}
+.about{
+    display: flex;
+}
+.about> div{
+    flex: 1;
+}
+.about div img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+#follow-us {
+    background-image: url("../assets/social-bg.png");
+    height: 671px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.follow-container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+    
+}
+
+.footer .follow-container {
+    width: 1023px;
+    
+}
+.about-container{
+    /* background-image: url("../assets/social-bg.png"); */
+    height: 671px;
+    width: 100%;
+    /* background-size: cover; */
+    /* background-position: center; */
+    justify-content: center;
+    align-items: center;
+}
+.about-container h2{
+    width: 70%;
+}
+.follow-container h1{
+    width: 805px;
+    margin: 0 auto;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.follow-container p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    opacity: 0.6;
+
+}
+.follow-container h2{
+    padding: 30px 10px 30px 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+
+.social-icon{
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+}
+.social-icon a{
+    font-size: 30px;
+    
+}
+.fb{
+    color: #1778F2;
+}
+.inst{
+    color: #d62976;
+}
+.git{
+    color: #000;
+}
+.pin{
+    color: #E60023;
+}
